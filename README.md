@@ -7,3 +7,16 @@ __________.__          ___________.__  .__       .__
                \/|__|          \/               \/          
                                               Replace Module
 ```
+
+Provides the ability to replace text in the specified files or folder.
+
+### Replace
+
+You can replace specific text in files or folder paths.
+
+```yaml
+replace:
+    PATH_PUBLIC_ASSETS + /vendor/vendor_name/styles.css:
+        - ../img
+        - vendor/vendor_name
+```
